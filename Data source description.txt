@@ -1,0 +1,15 @@
+For each month, we have a separate database. Each database contains 13 columns.
+
+ride_id: Unique id for each ride. Contains Alpha-numeric string.
+rideable_type: Type of bike used during ride. Categorical in nature. Have 3 choices.
+started_at: date and time of starting ride. In datetime format.
+ended_at: date and time of ending ride. In datetime format.
+start_station_name: name of starting station. In string format.
+start_station_id: An unique id for each station.
+end_station_name: name of ending station. In string format.
+end_station_id: An unique id for each station.
+start_lat: latitude for starting station. Floating point numbers.
+start_lng: longitude for starting station. Floating point numbers.
+end_lat: latitude for ending station. Floating poingt numbers.
+end_lng: longitude for ending station. Floating point numbers.
+member_casual: whether rider is a casual or annual member. Categorical inm nature. Have 2 categories
